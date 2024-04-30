@@ -63,5 +63,5 @@ jobs:
           prerelease: false
           title: KitsuNeko-kernel-RM6785-${{ env.RELEASE_DATE }}-${{ env.VERSION_KERNEL }}
           files: |
-            mt6785/AnyKernel/psionic-kernel-RM6785*
+            mt6785/AnyKernel/KitsuNeko-kernel-RM6785*
 
