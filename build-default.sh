@@ -32,7 +32,7 @@ setup_kernel_release() {
     # setup_kernel_release
     v=$(cat version)
     d=$(date "+%d%m%Y")
-    z="psionic-kernel-RM6785-$d-$v.zip"
+    z="KitsuNeko-kernel-RM6785-$d-$v.zip"
     wget --quiet https://psionicprjkt.my.id/assets/files/AK3-RM6785.zip && unzip AK3-RM6785
     cp out/arch/arm64/boot/Image.gz-dtb AnyKernel && cd AnyKernel
     zip -r9 "$z" *
